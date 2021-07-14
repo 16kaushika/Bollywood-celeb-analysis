@@ -1,0 +1,101 @@
+Name,gender,born_date,born_city,Age,height_in_m,married,Spouse_or_Ex.partner,Debut_year,total_films_aprox,USD_NetWorth_Million
+Akshay Kumar,Male,9/9/1967,Amritsar,53,1.78,Yes,Twinkle Khanna,1991,143,350
+Shah Rukh Khan,Male,2/11/1965,New Delhi,55,1.69,Yes,Gauri Khan,1988,107,600
+Deepika Padukone ,Female,5/1/1986,Denmark,35,1.74,Yes,Ranveer Singh,2005,39,48
+Salman Khan,Male,27/12/1965,Indore,55,1.74,No,,1988,124,360
+Amir Khan,Male,14/3/1965,Mumbai,56,1.63,Yes,Kiran rao,1973,62,180
+Priyanka Chopra,Female,18/7/1982,Jamshedpur,38,1.65,Yes,Nick Jones,2000,73,30
+Hritik Roshan,Male,10/1/1974,Mumbai,47,1.8,Divorced,Sussanne Khan,1980,37,370
+Tiger Shroff,Male,2/3/1990,Mumbai,31,1.75,No,,2014,13,14
+Katrina Kaif,Female,16/7/1983,British Hong Kong,37,1.68,No,,2003,49,30
+Kartik Aaryan,Male,22/11/1990,Gwallior,30,1.73,No,,2011,12,5.2
+Anushka Sharma,Female,1/5/1988,Ayodhya,33,1.75,Yes,Virat Kohli,2007,21,35
+Varun Dhavan,Male,24/4/1987,Mumbai,34,1.75,Yes,Natasha Dalal,2012,27,29
+Vidyut Jammwal,Male,10/12/1980,Kanpur,40,1.8,No,,2011,21,1
+Arbazz Khan,Male,4/8/1967,Pune,53,1.73,Divorced,Malaika Arora,1996,43,73
+Kareena Kapoor ,Female,21/9/1980,Mumbai,40,1.63,Yes,Saif Ali Khan,2000,72,16
+Kangana Ranaut,Female,23/3/1987,Bhambla,34,1.66,No,,2006,39,13
+Madhuri Dixit,Female,15/5/1967,Mumbai,54,1.63,Yes,Shriram Madhav Nene,1984,70,35
+Sonam Kapoor,Female,9/6/1985,Mumbai,36,1.75,Yes,Anand Ahuja,2007,23,13
+Aishwarya Rai Bachchan,Female,1/11/1973,Mangalore,47,1.7,Yes,Abhishek Bachchan,1991,51,31
+Shraddha Kapoor,Female,3/3/1987,Mumbai,34,1.62,No,,2010,25,14
+Amitabh Bachchan,Male,11/10/1942,Prayagraj,78,1.83,Yes,Jaya Bhaduri,1969,200,400
+Saif Ali Khan,Male,16/8/1970,New Delhi,50,1.7,Yes,Kareena Kapoor,1992,74,150
+Ajay Devgan,Male,2/4/1969,New Delhi,52,1.75,Yes,Kajol,1991,123,40
+Ranbir Kapoor,Male,28/9/1982,Mumbai,38,1.81,No,,2007,27,45
+Janhavi Kapoor,Female,6/3/1997,Mumbai,24,1.63,No,,2018,8,8
+Kiara Advani,Female,31/7/1992,Mumbai,28,1.57,No,,2014,17,3
+Karisma Kapoor,Female,25/6/1974,Mumbai,46,1.63,Divorced,Sunjay Kapur,1991,64,12
+Vidya Balan,Female,1/1/1979,Palakkad,42,1.63,Yes,Siddharth Roy Kapur,1995,39,18
+Sohil Khan,Male,20/12/1970,Mumbai,50,1.77,Yes,Seema Sachdev Khan,1997,32,15
+Shahid Kapoor,Male,25/2/1981,New Delhi,40,1.72,Yes,Mira Rajput,2003,30,36
+Shruti Haasan,Female,28/1/1986,Chennai,35,1.65,No,,2009,53,6
+Pooja Hegde,Female,13/10/1990,Mumbai,30,1.68,No,,2012,19,2.5
+Sara Ali Khan,Female,12/8/1995,Mumbai,25,1.63,No,,2018,7,2
+Sonakshi Sinha,Female,2/6/1987,Patna,34,1.67,No,,2010,32,10
+Jacqueline Fernandez,Female,11/8/1985,Colombo,35,1.63,No,,2009,34,10
+Sushmita Sen,Female,19/11/1975,Hyderabad,45,1.71,Yes,Rohman Shawl,1996,25,25
+Ranveer Singh,Male,6/7/1985,Mumbai,35,1.78,Yes,Deepika Padukone,2010,23,30
+Anil Kapoor,Male,24/12/1956,Mumbai,64,1.75,Yes,Sunita Kapoor,1977,119,18
+Sonu Sood,Male,30/7/1973,Punjab,47,1.88,Yes,Sonali Sood,1999,57,17
+John Abraham,Male,17/12/1972,Mumbai,48,1.85,Yes,Priya Runchal,1999,63,34
+Manoj Bajpayee,Male,23/4/1969,Narkatiaganj,52,1.7,Yes,Neha,1988,63,20
+Disha Patani,Female,13/6/1992,Bareilly,29,1.7,No,,2015,11,12
+Kriti Senon,Female,27/7/1990,New Delhi,30,1.71,No,,2014,20,4
+Arjun Kapoor,Male,26/6/1985,Mumbai,35,1.78,No,,2012,24,12
+Riteish Deshmukh,Male,17/12/1978,Latur,42,1.76,Yes,Genelia D'souza,2002,53,16
+Vivek Oberoi,Male,3/9/1976,Hyderabad,44,1.78,Yes,Priyanka Alva Oberoi,2002,40,15
+Shilpa Shetty,Female,8/6/1975,Mangalore,46,1.67,Yes,Raj Kundra,1993,45,18
+Parineeti Chopra,Female,22/10/1988,Ambala,32,1.6,No,,2011,19,8
+Taapsee Pannu,Female,1/8/1987,New Delhi,33,1.65,No,,2010,38,6
+Ayushmann Khurrana,Male,14/9/1984,Chandigarh,36,1.77,Yes,Tahira Kashyap,2004,21,6
+Rajkummar Rao,Male,31/8/1984,Gurugram,36,1.7,Yes,Patralekha Paul,2010,38,6
+Vicky Kaushal,Male,16/5/1988,Mumbai,33,1.83,No,,2012,16,3
+Annu Kapoor,Male,20/2/1956,Bhopal,65,1.63,Yes,Anupama Kapoor,1979,56,12
+Dilip Kumar,Male,11/12/1922,Pakistan,98,1.78,Divorced,"Asma Rehman,Saira Banu",1944,33,85
+Nawazuddin Siddiqui,Male,19/5/1974,Budhana,47,1.68,Yes,Aaliya Siddiqui,1999,57,13
+Sunny Leone,Female,13/5/1981,Sarnia,40,1.63,Yes,Daniel Weber,2012,36,13
+Kajol  ,Female,5/8/1974,Mumbai,46,1.6,Yes,Ajay Devgan,1992,41,24
+Kajal Aggarwal,Female,19/6/1985,Mumbai,35,1.68,Yes,Gautam Kitchlu,2004,59,12
+Abhishek  Bachchan,Male,5/2/1976,Mumbai,45,1.85,Yes,Aishwarya Rai Bachchan,2000,69,28
+Sidharth Malhotra,Male,16/1/1985,Delhi,36,1.8,No,,2012,14,10
+Govinda,Male,21/12/1963,Mumbai,57,1.73,Yes,Sunita Ahuja,1986,110,18
+Dharmendra,Male,8/12/1935,Nasrali,85,1.78,Yes,Hema Malini,1960,149,60
+Sunny Deol,Male,19/10/1956,Punjab,64,1.73,Yes,Pooja Deol,1983,86,12
+Mithun Chakraborty,Male,16/6/1950,Bangladesh,70,1.83,Divorced,"Sridevi,Yogeeta Balli",1976,173,40
+Naseeruddin Shah,Male,20/6/1950,Barabanki,70,1.7,Yes,Ratna Pathak Shah,1972,114,50
+Farhan Akhtar,Male,9/1/1974,Mumbai,47,1.7,Divorced,Adhuna Bhabani ,2001,33,2.5
+Anupam Kher,Male,7/3/1955,Shimla,66,1.68,Divorced,"Kirron rao,Madhumalti Kapoor",1982,200,70
+Jeetendra,Male,7/4/1942,Punjab,79,1.75,Yes,Shobha Kapoor,1964,109,200
+Malaika Arora,Female,23/10/1973,Thane,47,1.6,Divorced,Arbaaz Khan,1997,18,10
+Bhumi Pednekar,Female,18/7/1989,Mumbai,31,1.57,No,,2015,13,1.5
+Ananya Pandey,Female,30/10/1998,Mumbai,22,1.7,No,,2019,3,3.2
+Rekha,Female,10/10/1954,Chennai,66,1.65,Divorced,Mukesh Aggarwal,1958,113,40
+Rakul Preet Singh,Female,10/10/1990,New Delhi,30,1.68,No,,2009,36,5
+Yami Gautam,Female,28/11/1988,Bilaspur,32,1.61,Yes,Aditya Dhar,2008,22,5
+Shatrughan Sinha,Male,9/12/1945,patna,75,1.83,Yes,Poonam Sinha,1969,75,500
+Arshad Warsi,Male,19/4/1968,Mumbai,53,1.68,Yes,Maria Goretti,1996,62,40
+Kunal Khemu,Male,25/5/1983,Srinagar,38,1.66,Yes,Soha Ali Khan,2005,30,7
+Aditya roy Kapur,Male,16/11/1985,Mumbai,35,1.85,No,,2009,16,8
+Tusshar Kapoor,Male,20/11/1976,Mumbai,44,1.75,No,,2001,38,11
+Sharman Joshi,Male,28/4/1979,Mumbai,42,1.75,Yes,Prerana Chopra,1999,34,15
+Shreyas Talpade,Male,27/1/1976,Mumbai,45,1.7,Yes,Deepti Talpade,2000,32,1
+Boman Irani,Male,2/12/1959,Mumbai,61,1.85,Yes,Zenobia Irani,2001,90,1
+Jackie Shroff,Male,1/2/1957,Mumbai,64,1.83,Yes,Ayesha Shroff,1978,147,26
+Paresh Rawal,Male,30/5/1955,Mumbai,66,1.73,Yes,Swaroop Sampat ,1982,192,13
+Sunil Shetty,Male,11/8/1961,Mulki,59,1.78,Yes,Mana Shetty,1991,113,10
+Rajpal Yadav,Male,16/3/1971,Budaun,50,1.6,Yes,Radha Yadav,1997,114,10
+Ileana D'Cruz,Female,1/11/1987,Mumbai,33,1.65,No,,2006,30,14
+Hema Malini,Female,16/10/1948,Ammankundi,72,1.68,Yes,Dharmendra,1968,73,60
+Neena Gupta,Female,4/6/1959,Delhi,62,1.61,Yes,Vivek Mehra,1982,38,3.5
+Preity Zinta,Female,31/1/1975,Shimla,46,1.63,Yes,Gene Goodenough,1998,38,10
+Tamannaah,Female,21/12/1989,Mumbai,31,1.65,No,,2005,61,15
+Johnny Lever,Male,14/8/1957,Kanigiri,63,1.6,Yes,Sujatha Lever,1982,200,30
+Nana Patekar,Male,1/1/1951,Murud-Janjira Fort,70,1.7,Yes,Neelakanti Patekaar,1978,54,5
+Shakti Kapoor,Male,3/9/1952,Delhi,68,1.75,Yes,Shivangi Kapoor,1974,200,30
+Satish Kaushik,Male,13/4/1956,Mahendragarh,65,1.65,Yes,Shashi Kaushik,1983,92,15
+Arjun Rampal,Male,26/11/1972,Jabalpur,48,1.81,Yes,Mehr Jesia,2001,46,15
+Bobby Deol,Male,27/1/1969,Mumbai,52,1.8,Yes,Tanya Deol,1977,46,8
+R.Madhavan,Male,1/6/1970,Jamshedpur,51,1.77,Yes,Sarita Birje,1993,52,14
+Mahesh Manjrekar,Male,16/8/1958,Mumbai,62,1.78,Yes,Medha Manjrekar,1975,80,5
+Rani Mukerji,Female,21/3/1978,Calcutta,43,1.56,Yes,Aditya Chopra,1996,55,12

@@ -1,0 +1,178 @@
+#importing libraries and dataset
+#import data set
+
+CODE:
+import pandas as pd
+dataframe = pd.read_csv(r'C:\Users\Lenovo\Desktop\bollywood-celebs.csv')
+dataframe
+
+#getting basic information about data
+
+CODE:
+dataframe.head()
+dataframe.tail()
+dataframe.shape
+dataframe.size
+dataframe.columns
+dataframe.dtypes
+dataframe.info()
+
+#task 1 find any duplicate record in database
+
+CODE:
+dataframe[dataframe.duplicated()]
+
+#check for null values
+
+CODE:
+dataframe.isnull()
+dataframe.isnull().sum()
+
+#show missing values with heat-map
+
+CODE:
+import seaborn as sns
+sns.heatmap(dataframe.isnull())
+
+#Q.1 For "Madhuri Dixit" ,show gender and year of debut .
+
+#showing gender and year of debut,we solve this question by isin()method
+#we can also use str.contains() method
+
+CODE:
+dataframe[dataframe['Name'].isin(['Madhuri Dixit'])]
+
+#Q.2 In which year highest number of celebrities born ?
+#Q2.1 In which year highest number of celebrities Debut?
+
+CODE:
+dataframe.dtypes
+
+#Q.2 answer: we are creating new coulmn for date time
+
+CODE:
+dataframe['New_Date'] = pd.to_datetime(dataframe['born_date'])
+dataframe.head()
+dataframe.dtypes
+dataframe['New_Date'].dt.year.value_counts()
+#from the output we can see that in year 1985 highest number of celebrities born .number of celebs are 7
+
+#Q2.1 answer: 
+
+CODE:
+dataframe.value_counts('Debut_year')
+as shown in output, highest number of celebrities debut in 2012
+
+#Q.3 how many marital status are there in dataset ?show with the bar graph.
+
+CODE:
+dataframe.groupby('married').married.count()
+#output shows the Yes if married and No for not married and Divorced ,there are 62 celebrities who married in current date.
+
+#Bar Graph
+
+CODE:
+import seaborn as sns
+from matplotlib import pyplot as plt
+sns.countplot(dataframe['married'])
+
+
+#Q.4 Show data of the celebrities who born in Mumbai and have networth above 30 million.
+#Q.4.1 Show only the Female celebrities name who has given more than 40 number of films.
+#Q.4.2 Show name of the celebrities who divorced and also show with whom they divorced
+#Filtering
+
+CODE:
+dataframe.head()
+
+#Q.4 answer:
+#we will use filtering for this
+
+CODE:
+dataframe[(dataframe['born_city']=='Mumbai') & (dataframe['USD_NetWorth_Million']>30.0)]
+
+#filtering
+#Q.4.1 answer using filtering
+
+CODE:
+dataframe[(dataframe['gender']=='Female') & (dataframe['total_films_aprox']>40)]['Name']
+
+
+#Q.4.2 answer
+
+CODE:
+dataframe[dataframe['married']=='Divorced']
+
+
+#Q.5 show top 10 celebrity who gave more than 100 movies in their career
+
+CODE:
+dataframe.sort_values(by=['total_films_aprox'],inplace=True,ascending=False)
+dataframe[(dataframe['total_films_aprox']>100)].head(10)
+
+
+#Q.6 Show top 5 celebrities who are not born in Mumbai and net worth is above 300million.
+
+CODE:
+dataframe.sort_values(by=['USD_NetWorth_Million'],inplace=True,ascending=False)
+dataframe[(dataframe['born_city']!='Mumbai') & (dataframe['USD_NetWorth_Million']>300)].head(5)
+
+#Q.7 Show all the records ,where "gender is Female and she is married " or "height is greater than 1.7 meter ".
+#here we will use filtering with And,Or operator
+
+CODE:
+dataframe.head()
+dataframe[(dataframe['gender']=='Female') & (dataframe['married']=='Yes') | (dataframe['height_in_m']>=1.86)]
+
+#Q.8 What are the different ages of celebrities
+#we will use nunique()  and unique()
+
+CODE:
+dataframe['Age'].nunique()
+dataframe['Age'].unique()
+
+#Q.9 Show top 5 city in which celebrities born, show in percentage with pie chart.
+#Q.9.1 Make a histogram for Age.
+#Q.9.2 show line plot for age,networth and married status.
+
+CODE:
+dataframe.value_counts('born_city')[0:5]
+my_labels=['Mumbai','New Delhi','Delhi','Punjab','Chennai']
+no_celeb=[39,7,3,3,2]
+plt.pie(no_celeb,labels=my_labels,autopct='%0.1f%%')
+plt.show()
+plt.hist(dataframe['Age'],color="silver")
+plt.show()
+sns.lineplot(x="Age",y="USD_NetWorth_Million",data=dataframe,hue="married",style="married")
+plt.show()
+
+
+#Q.10 In last ten years how many celebs make debut show all data of them.
+
+CODE:
+dataframe[(dataframe['Debut_year']>=2011) & (dataframe['Debut_year']<=2021)]
+
+#Q.11 Show displot for net worth.
+#Q.11.1 show box plot for Age,marital status,and gender.
+
+CODE:
+sns.displot(dataframe['USD_NetWorth_Million'])
+plt.show()
+
+#Q.11.1 Answer:
+sns.boxplot(x='married',y='Age',data=dataframe,hue='gender')
+plt.show
+
+#Output shows there are avarage age of married Male celebrities is 53 and for Female 45.age between 30 to 40 ,female and male both celebrities are not married.avarage age of divorced celebrities are 60 for male and 50 for female.
+
+#Q.12 Find from how many years(from highest to lowest) stars/celebrities are active in the bollywood film industry as an actor.
+
+CODE:
+dataframe['Present_year'] = pd.Series([2021 for x in range(len(dataframe.index))])
+print("Final dataframe")
+display(dataframe)
+dataframe.dtypes
+dataframe
+dataframe['Active_year']=dataframe['Present_year'] -  dataframe['Debut_year']
+dataframe.sort_values(by=['Active_year'],inplace=True,ascending=False)
+dataframe
